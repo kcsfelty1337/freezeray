@@ -12,7 +12,7 @@ class icePick:
 		self.battlewornParts = ['Battle-Worn Robot Money Furnace','Battle-Worn Robot Taunt Processor','Battle-Worn Robot KB-808']
 		self.reinforcedParts = ['Reinforced Robot Emotion Detector','Reinforced Robot Bomb Stabilizer','Reinforced Robot Humor Suppression Pump']
 		self.weaponList = self.getWeapons()
-		self.d = MySQLdb.connect(user='felty005',passwd='9m3rm6',db='felty005_tf2')
+		self.d = MySQLdb.connect(user='',passwd='',db='')
 		self.dbc = self.d.cursor()
 
 	def toBaseKit(self,item):
